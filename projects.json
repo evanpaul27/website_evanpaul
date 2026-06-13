@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "name": "pulse-bot",
+        "description": "No description provided",
+        "url": "https://github.com/evanpaul27/pulse-bot"
+    },
+    {
+        "name": "website_evanpaul",
+        "description": "No description provided",
+        "url": "https://github.com/evanpaul27/website_evanpaul"
+    }
+]
