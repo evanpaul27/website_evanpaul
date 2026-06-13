@@ -1,12 +1,12 @@
 [
     {
         "name": "pulse-bot",
-        "description": "No description provided",
+        "description": "Bot built with python for automation, moderation, and utility features.",
         "url": "https://github.com/evanpaul27/pulse-bot"
     },
     {
         "name": "website_evanpaul",
-        "description": "No description provided",
+        "description": "Personal website showcasing my projects, skills, and web development work.",
         "url": "https://github.com/evanpaul27/website_evanpaul"
     }
 ]
