@@ -1,12 +1,17 @@
 [
     {
         "name": "pulse-bot",
-        "description": "Bot built with python for automation, moderation, and utility features.",
+        "description": "A bot built with python for automation, moderation, and utility features.",
         "url": "https://github.com/evanpaul27/pulse-bot"
     },
     {
+        "name": "test_autoupdate",
+        "description": "Test repository created to verify GitHub automation.",
+        "url": "https://github.com/evanpaul27/test_autoupdate"
+    },
+    {
         "name": "website_evanpaul",
-        "description": "Personal website showcasing my projects, skills, and web development work.",
+        "description": "Personal website showcasing my projects, skills and web development work.",
         "url": "https://github.com/evanpaul27/website_evanpaul"
     }
 ]
