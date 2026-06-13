@@ -85,3 +85,54 @@ filterButtons.forEach(button => {
     });
 
 });
+async function loadGithubProjects() {
+
+    try {
+
+        const response =
+        await fetch("projects.json");
+
+        const projects =
+        await response.json();
+
+        const container =
+        document.getElementById(
+            "github-projects"
+        );
+
+        container.innerHTML = "";
+
+        projects.forEach(project => {
+
+            const card =
+            document.createElement("div");
+
+            card.className =
+            "gallery-card";
+
+            card.innerHTML = `
+                <h3>${project.name}</h3>
+
+                <p>${project.description}</p>
+
+                <a href="${project.url}"
+                   target="_blank">
+                   View Repository
+                </a>
+            `;
+
+            container.appendChild(card);
+
+        });
+
+    }
+
+    catch(error){
+
+        console.error(error);
+
+    }
+
+}
+
+loadGithubProjects();
